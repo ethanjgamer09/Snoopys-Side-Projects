@@ -1,4 +1,5 @@
 let C = [];
+let cAmount = 10;
 
 function setup() {
   createCanvas(400, 400);
@@ -11,13 +12,13 @@ function draw() {
 }
 
 function createCircles() {
-  for (let i = 0; i < 10; i++) {
-    C[i] = new Circle(random(0, 400), random(0, 400), random(0, 255), random(0, 255), random(0, 255), random(3, 103));
+  for (let i = 0; i < cAmount; i++) {
+    C[i] = new CClass(random(0, 400), random(0, 400), random(0, 255), random(0, 255), random(0, 255), random(3, 103));
   }
 }
 
 function drawCircles() {
-  for (let j = 0; j < 10; j++) {
+  for (let j = 0; j < cAmount; j++) {
     C[j].show();
   }
 }
