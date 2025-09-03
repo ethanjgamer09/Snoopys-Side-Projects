@@ -1,5 +1,5 @@
 let C = [];
-let cAmount = 10;
+let cAmount = 103;
 
 function setup() {
   createCanvas(400, 400);
