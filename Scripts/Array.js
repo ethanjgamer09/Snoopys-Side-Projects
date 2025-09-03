@@ -1,4 +1,4 @@
-class Circle {
+class CClass {
   constructor(X, Y, r, g, b, SCALE) {
     this.x = X;
     this.y = Y;
